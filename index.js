@@ -3,7 +3,7 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 const bcrypt = require('bcrypt');
 const app = express();
-const port = 3000;
+const port = 5000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
